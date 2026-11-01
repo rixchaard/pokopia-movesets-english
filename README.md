@@ -4,7 +4,7 @@ Variante da tradução comunitária de [LucianoNeo/pokemon-pokopia-pt-br](https:
 
 ## Download
 
-**[Baixar o patch pronto — Movesets em Inglês](https://github.com/rixchaard/pokemon-pokopia-pt-br/releases/latest)**
+**[Baixar o patch pronto — Movesets em Inglês](https://github.com/rixchaard/pokopia-movesets-english/releases/latest)**
 
 Baixe o arquivo `pokopia-ptbr-ataques-em-ingles.zip` anexado à release. O botão **Code → Download ZIP** baixa o código do projeto e não substitui o pacote pronto da release.
 
