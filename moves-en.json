@@ -1,0 +1,578 @@
+{
+  "upstream": "LucianoNeo/pokemon-pokopia-pt-br",
+  "commit": "7543125ee0649383541c127c01ce251b8aad046c",
+  "sourceHashes": {
+    "LD_C0_R.BIN": "5c86875e6689d09d765163e2361d04cdb34a60314abf5c03cff5aa468479dfa9",
+    "LI_C0_R.IDX": "53776777078033150a3a0d8146b2ee21eda950b6bce4994be87e200280054fea"
+  },
+  "changes": [
+    {
+      "table": 2078,
+      "entry": 115,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "Uma festa de dança da chuva?",
+      "after": "Uma festa de Rain Dance?"
+    },
+    {
+      "table": 2078,
+      "entry": 122,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "Para a festa da Dança da Chuva...",
+      "after": "Para a festa da Rain Dance..."
+    },
+    {
+      "table": 2078,
+      "entry": 129,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "Tivemos uma festa de dança da chuva...",
+      "after": "Tivemos uma festa de Rain Dance..."
+    },
+    {
+      "table": 2276,
+      "entry": 18,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$emotion(2,14)><$voicel(2,5)>Eu estava pensando... eu poderia dar uma festa de <$cdef(27)>dança da chuva</color>!",
+      "after": "<$emotion(2,14)><$voicel(2,5)>Eu estava pensando... eu poderia dar uma festa de <$cdef(27)>Rain Dance</color>!"
+    },
+    {
+      "table": 2276,
+      "entry": 19,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$comeff(2,14)><$motion(2,666)><$voicel(2,7)>Uma festa de <$cdef(27)>dança da chuva</color> é como uma cerimônia<br> que deveria fazer <$voicel(2,6)>chover, mas requer muita<slide><br> preparação...<clear><br><$emotion(2,29)><$voicel(2,7)>Acha que poderia me ajudar a me preparar para a<br> festa da <$cdef(27)>Dança da Chuva</color>, <$cdef(27)><pname;0></color>?",
+      "after": "<$comeff(2,14)><$motion(2,666)><$voicel(2,7)>Uma festa de <$cdef(27)>Rain Dance</color> é como uma cerimônia<br> que deveria fazer <$voicel(2,6)>chover, mas requer muita<slide><br> preparação...<clear><br><$emotion(2,29)><$voicel(2,7)>Acha que poderia me ajudar a me preparar para a<br> festa da <$cdef(27)>Rain Dance</color>, <$cdef(27)><pname;0></color>?"
+    },
+    {
+      "table": 2276,
+      "entry": 20,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$emotion(2,8)><$voicel(2,9)>Então, aqui está o que eu vou precisar para a festa de <$cdef(27)>dança da chuva</color>...",
+      "after": "<$emotion(2,8)><$voicel(2,9)>Então, aqui está o que eu vou precisar para a festa de <$cdef(27)>Rain Dance</color>..."
+    },
+    {
+      "table": 2276,
+      "entry": 23,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$comeff(2,14)><$facial(2,1)><$motion(2,803)><$voicel(2,5)>Durante a festa<$cdef(27)> da Dança</color> da Chuva<$comcan(2)><$motion(2,807)><$voicel(2,4)>, preciso manter minha <br>mente focada na chuva.<clear><br><$comeff(2,17)><$motion(2,806)><$voicel(2,4)>Se meus pensamentos vaguearem por um segundo... até mesmo<br> um rápido \"seria bom se chovesse deliciosas frutas também\" <slide><br>fará<$motion(2,807)><$voicel(2,8)> com que toda a festa fracasse!<clear><br>É<$motion(2,803)><$voicel(2,5)> por isso que preciso de itens que me ajudem a manter o foco <br>na chuva, mas..<$emotion(2,18)><$voicel(2,4)>. acho que isso é um pouco vago demais, né.",
+      "after": "<$comeff(2,14)><$facial(2,1)><$motion(2,803)><$voicel(2,5)>Durante a festa<$cdef(27)> da Rain</color> Dance<$comcan(2)><$motion(2,807)><$voicel(2,4)>, preciso manter minha <br>mente focada na chuva.<clear><br><$comeff(2,17)><$motion(2,806)><$voicel(2,4)>Se meus pensamentos vaguearem por um segundo... até mesmo<br> um rápido \"seria bom se chovesse deliciosas frutas também\" <slide><br>fará<$motion(2,807)><$voicel(2,8)> com que toda a festa fracasse!<clear><br>É<$motion(2,803)><$voicel(2,5)> por isso que preciso de itens que me ajudem a manter o foco <br>na chuva, mas..<$emotion(2,18)><$voicel(2,4)>. acho que isso é um pouco vago demais, né."
+    },
+    {
+      "table": 2276,
+      "entry": 26,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$emotion(1,14)><$voicel(1,8)>O que é isso? <$cdef(27)>Squirtle</color> quer fazer uma festa<$cdef(27)> de dança </color>da chuva<br>? Que interessante...<clear><br><$emotion(1,8)><$voicel(1,5)>Sabe, acho que tenho a coisa certa para ajudar!",
+      "after": "<$emotion(1,14)><$voicel(1,8)>O que é isso? <$cdef(27)>Squirtle</color> quer fazer uma festa<$cdef(27)> de Rain</color> Dance<br>? Que interessante...<clear><br><$emotion(1,8)><$voicel(1,5)>Sabe, acho que tenho a coisa certa para ajudar!"
+    },
+    {
+      "table": 2276,
+      "entry": 29,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$motion(1,661)><$voicel(1,5)><$cdef(27)>Castform</color> é um Pokémon que muda sua aparência<br> dependendo do tempo.<clear><br><$emotion(1,38)><$voicel(1,9)>Se você arrumar as bonecas para mostrar sua aparência chuvosa<br>, elas devem ser perfeitas para sua festa de <$cdef(27)>dança da chuva</color>!",
+      "after": "<$motion(1,661)><$voicel(1,5)><$cdef(27)>Castform</color> é um Pokémon que muda sua aparência<br> dependendo do tempo.<clear><br><$emotion(1,38)><$voicel(1,9)>Se você arrumar as bonecas para mostrar sua aparência chuvosa<br>, elas devem ser perfeitas para sua festa de <$cdef(27)>Rain Dance</color>!"
+    },
+    {
+      "table": 2276,
+      "entry": 30,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$comeff(1,3)><$facial(1,4)><$motion(1,801)><$voicel(1,7)>Você deve encontrar aquelas<$cdef(27)> bonecas Castform </color>na minha casa, elas serão<br> perfeitas para a sua festa de <$cdef(27)>dança da chuva</color>.",
+      "after": "<$comeff(1,3)><$facial(1,4)><$motion(1,801)><$voicel(1,7)>Você deve encontrar aquelas<$cdef(27)> bonecas Castform </color>na minha casa, elas serão<br> perfeitas para a sua festa de <$cdef(27)>Rain Dance</color>."
+    },
+    {
+      "table": 2276,
+      "entry": 35,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$comeff(2,14)><$motion(2,666)><$voicel(2,5)>Para me preparar para uma festa de <$cdef(27)>dança da chuva</color>, primeiro preciso de um <$cdef(27)>prato</color>.<br>.<$voicel(2,8)>. e então preciso que você coloque um pouco de <$cdef(27)>comida</color> nele.",
+      "after": "<$comeff(2,14)><$motion(2,666)><$voicel(2,5)>Para me preparar para uma festa de <$cdef(27)>Rain Dance</color>, primeiro preciso de um <$cdef(27)>prato</color>.<br>.<$voicel(2,8)>. e então preciso que você coloque um pouco de <$cdef(27)>comida</color> nele."
+    },
+    {
+      "table": 2276,
+      "entry": 39,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$comeff(2,14)><$motion(2,666)><$voicel(2,5)>Agora, então, é hora de começar essa festa de <$cdef(27)>dança da chuva</color>!",
+      "after": "<$comeff(2,14)><$motion(2,666)><$voicel(2,5)>Agora, então, é hora de começar essa festa de <$cdef(27)>Rain Dance</color>!"
+    },
+    {
+      "table": 2276,
+      "entry": 44,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$voicel(2,7)><$emotion(2,14)>Mal posso <$cdef(27)><$hatname(152)></color>esperar para ter uma festa <br>de dança da chuva!",
+      "after": "<$voicel(2,7)><$emotion(2,14)>Mal posso <$cdef(27)><$hatname(152)></color>esperar para ter uma festa <br>de Rain Dance!"
+    },
+    {
+      "table": 2276,
+      "entry": 51,
+      "moves": [
+        "Rototiller"
+      ],
+      "before": "<$comeff(4,14)><$facial(4,9)><$motion(4,666)><$voicel(4,3)>Então, de qualquer forma, eu estou tentando melhorar<$cdef(27)> em usar </color><$cdef(27)><br>Arado</color> na sujeira aqui... mas eu estou em um pouco de picles!",
+      "after": "<$comeff(4,14)><$facial(4,9)><$motion(4,666)><$voicel(4,3)>Então, de qualquer forma, eu estou tentando melhorar<$cdef(27)> em usar </color><$cdef(27)><br>Rototiller</color> na sujeira aqui... mas eu estou em um pouco de picles!"
+    },
+    {
+      "table": 2285,
+      "entry": 40,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$voicel(2,5)><$motion(2,805)><$comeff(2,14)><$facial(2,9)>Espere, espere... isso significa que minha festa de <$cdef(27)>dança da chuva</color>...",
+      "after": "<$voicel(2,5)><$motion(2,805)><$comeff(2,14)><$facial(2,9)>Espere, espere... isso significa que minha festa de <$cdef(27)>Rain Dance</color>..."
+    },
+    {
+      "table": 2285,
+      "entry": 84,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<$voicel(1,7)><$emotion(1,14)>Parece que a festa<$cdef(27)> da Dança</color> da<$cdef(27)> Chuva do </color>Esquilo correu bem.",
+      "after": "<$voicel(1,7)><$emotion(1,14)>Parece que a festa<$cdef(27)> da Rain</color><$cdef(27)> Dance do </color>Esquilo correu bem."
+    },
+    {
+      "table": 2528,
+      "entry": 41,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,14)><$facial(4,1)><$motion(4,666)><$voicel(4,6)>Agora é só um grande pedregulho bloqueando nossa diversão.<clear><br><$comeff(4,5)><$facial(4,4)><$voicel(4,9)>Está bem, é hora de mostrar minha <$cdef(27)>força</color>!",
+      "after": "<$comeff(4,14)><$facial(4,1)><$motion(4,666)><$voicel(4,6)>Agora é só um grande pedregulho bloqueando nossa diversão.<clear><br><$comeff(4,5)><$facial(4,4)><$voicel(4,9)>Está bem, é hora de mostrar minha <$cdef(27)>Strength</color>!"
+    },
+    {
+      "table": 2528,
+      "entry": 45,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Você aprendeu <$cdef(27)>Força</color>!",
+      "after": "Você aprendeu <$cdef(27)>Strength</color>!"
+    },
+    {
+      "table": 2528,
+      "entry": 47,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,11)><$facial(4,13)><$motion(4,803)><$voicel(4,8)>Você aprendeu <$cdef(27)>Força</color> apenas me observando?<clear><br><$comeff(4,4)><$motion(4,802)><$voicel(4,5)>Você nunca ouviu falar que os bíceps não são <br>construídos em um dia?",
+      "after": "<$comeff(4,11)><$facial(4,13)><$motion(4,803)><$voicel(4,8)>Você aprendeu <$cdef(27)>Strength</color> apenas me observando?<clear><br><$comeff(4,4)><$motion(4,802)><$voicel(4,5)>Você nunca ouviu falar que os bíceps não são <br>construídos em um dia?"
+    },
+    {
+      "table": 2528,
+      "entry": 48,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,6)><$facial(4,1)><$motion(4,666)><$voicel(4,5)>Está me dizendo que pode usar <$cdef(27)>Força</color> agora?",
+      "after": "<$comeff(4,6)><$facial(4,1)><$motion(4,666)><$voicel(4,5)>Está me dizendo que pode usar <$cdef(27)>Strength</color> agora?"
+    },
+    {
+      "table": 2528,
+      "entry": 49,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,3)><$facial(4,1)><$motion(4,666)><$voicel(4,5)>Tudo bem, que tal você me dar uma<br> pequena demonstração?<clear><br><$comeff(4,10)><$facial(4,4)><$voicel(4,9)>Veja este pedregulho aqui? Tente usar <$cdef(27)>força</color> para movê-lo!",
+      "after": "<$comeff(4,3)><$facial(4,1)><$motion(4,666)><$voicel(4,5)>Tudo bem, que tal você me dar uma<br> pequena demonstração?<clear><br><$comeff(4,10)><$facial(4,4)><$voicel(4,9)>Veja este pedregulho aqui? Tente usar <$cdef(27)>Strength</color> para movê-lo!"
+    },
+    {
+      "table": 2528,
+      "entry": 50,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,3)><$facial(4,1)><$motion(4,666)><$voicel(4,5)>Tudo bem, que tal você me dar uma<br> pequena demonstração?<clear><br><$comeff(4,10)><$facial(4,4)><$voicel(4,9)>Veja este pedregulho aqui? Tente usar <$cdef(27)>força</color> para movê-lo!",
+      "after": "<$comeff(4,3)><$facial(4,1)><$motion(4,666)><$voicel(4,5)>Tudo bem, que tal você me dar uma<br> pequena demonstração?<clear><br><$comeff(4,10)><$facial(4,4)><$voicel(4,9)>Veja este pedregulho aqui? Tente usar <$cdef(27)>Strength</color> para movê-lo!"
+    },
+    {
+      "table": 2528,
+      "entry": 56,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,3)><$motion(4,801)><$voicel(4,7)>Use a <$cdef(27)>Força</color> para arrastar a pedra até aqui!",
+      "after": "<$comeff(4,3)><$motion(4,801)><$voicel(4,7)>Use a <$cdef(27)>Strength</color> para arrastar a pedra até aqui!"
+    },
+    {
+      "table": 2528,
+      "entry": 75,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,10)><$facial(4,1)><$motion(4,803)><$voicel(4,7)>Uau, você é outra coisa, amigo! Não acredito que você já <br>pegou o jeito de usar <$cdef(27)>Força</color>. Isso<wait(1.1)><$comeff(4,9)><$facial(4,4)><$motion(4,801)><$voicel(4,10)> foi tão incrível!<clear><br><$comeff(4,6)><$facial(4,2)><$motion(4,666)><$voicel(4,7)>Então você precisava de uma mão, sim? Estou feliz em ajudar agora <br>que estou todo aquecido! O que posso fazer?",
+      "after": "<$comeff(4,10)><$facial(4,1)><$motion(4,803)><$voicel(4,7)>Uau, você é outra coisa, amigo! Não acredito que você já <br>pegou o jeito de usar <$cdef(27)>Strength</color>. Isso<wait(1.1)><$comeff(4,9)><$facial(4,4)><$motion(4,801)><$voicel(4,10)> foi tão incrível!<clear><br><$comeff(4,6)><$facial(4,2)><$motion(4,666)><$voicel(4,7)>Então você precisava de uma mão, sim? Estou feliz em ajudar agora <br>que estou todo aquecido! O que posso fazer?"
+    },
+    {
+      "table": 2528,
+      "entry": 77,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,5)><$facial(4,4)><$motion(4,801)><$voicel(4,9)>Deixe isso comigo, minha <$cdef(27)>força</color> vai fazer um <br>trabalho rápido!",
+      "after": "<$comeff(4,5)><$facial(4,4)><$motion(4,801)><$voicel(4,9)>Deixe isso comigo, minha <$cdef(27)>Strength</color> vai fazer um <br>trabalho rápido!"
+    },
+    {
+      "table": 2528,
+      "entry": 78,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(4,11)><$facial(4,1)><$motion(4,802)><$voicel(4,7)>Mas espere, você pode usar <$cdef(27)>Força</color> agora, certo?",
+      "after": "<$comeff(4,11)><$facial(4,1)><$motion(4,802)><$voicel(4,7)>Mas espere, você pode usar <$cdef(27)>Strength</color> agora, certo?"
+    },
+    {
+      "table": 2528,
+      "entry": 86,
+      "moves": [
+        "Strength"
+      ],
+      "before": "<$comeff(1,5)><$facial(1,1)><$voicel(1,10)><$cdef(27)>Machoke</color> te ensinou a usar <$cdef(27)>Força</color>?",
+      "after": "<$comeff(1,5)><$facial(1,1)><$voicel(1,10)><$cdef(27)>Machoke</color> te ensinou a usar <$cdef(27)>Strength</color>?"
+    },
+    {
+      "table": 2717,
+      "entry": 31,
+      "moves": [
+        "Glide"
+      ],
+      "before": "<$comeff(4,3)><$facial(4,1)><$motion(4,661)><$voicel(4,5)>Você ainda é um iniciante, então pode ser difícil para <br>você realmente se virar no céu...<clear><br>A<$comeff(4,10)><$facial(4,1)><$motion(4,805)><$voicel(4,8)> mosca de Maaaybe não era a<$cdef(27)> </color>palavra <br>certa... deslize?",
+      "after": "<$comeff(4,3)><$facial(4,1)><$motion(4,661)><$voicel(4,5)>Você ainda é um iniciante, então pode ser difícil para <br>você realmente se virar no céu...<clear><br>A<$comeff(4,10)><$facial(4,1)><$motion(4,805)><$voicel(4,8)> mosca de Maaaybe não era a<$cdef(27)> </color>palavra <br>certa... Glide?"
+    },
+    {
+      "table": 2789,
+      "entry": 28,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "<$voicel(4,6)><$comeff(4,3)><$motion(4,661)>O movimento se chama <$cdef(27)>Cachoeira</color>!<clear><br>s<$voicel(4,3)><$comeff(4,6)><$motion(4,805)> vezes, você se depara com cachoeiras quando<br><$cdef(27)><$sklfull(10)></color> está nadando, não é?",
+      "after": "<$voicel(4,6)><$comeff(4,3)><$motion(4,661)>O movimento se chama <$cdef(27)>Waterfall</color>!<clear><br>s<$voicel(4,3)><$comeff(4,6)><$motion(4,805)> vezes, você se depara com cachoeiras quando<br><$cdef(27)><$sklfull(10)></color> está nadando, não é?"
+    },
+    {
+      "table": 2789,
+      "entry": 43,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "<$voicel(4,6)><$comeff(4,3)><$motion(4,661)>O movimento se chama <$cdef(27)>Cachoeira</color>!<clear><br>s<$voicel(4,3)><$comeff(4,6)><$motion(4,805)> vezes, você se depara com cachoeiras quando<br><$cdef(27)><$sklfull(10)></color> está nadando, não é?",
+      "after": "<$voicel(4,6)><$comeff(4,3)><$motion(4,661)>O movimento se chama <$cdef(27)>Waterfall</color>!<clear><br>s<$voicel(4,3)><$comeff(4,6)><$motion(4,805)> vezes, você se depara com cachoeiras quando<br><$cdef(27)><$sklfull(10)></color> está nadando, não é?"
+    },
+    {
+      "table": 2789,
+      "entry": 48,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "<$voicel(4,7)><$emotion(4,29)>Como assim? Você não sabe nadar?<clear><br><$voicel(4,3)><$comeff(4,7)><$motion(4,802)>Assim não dá. Você não vai dominar a técnica <$cdef(27)>Cachoeira </color>sem aprender a nadar um pouquinho!<br>",
+      "after": "<$voicel(4,7)><$emotion(4,29)>Como assim? Você não sabe nadar?<clear><br><$voicel(4,3)><$comeff(4,7)><$motion(4,802)>Assim não dá. Você não vai dominar a técnica <$cdef(27)>Waterfall </color>sem aprender a nadar um pouquinho!<br>"
+    },
+    {
+      "table": 2789,
+      "entry": 63,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "Aperte na<$cdef(27)> frente</color> de <$keyicon(6)>uma cachoeira enquanto<br> <$cdef(27)><$sklfull(10)>ing</color>!",
+      "after": "Você aprendeu <$cdef(27)>Waterfall</color>! Aperte <$keyicon(6)> diante de uma cachoeira<br> enquanto usa <$cdef(27)><$sklfull(10)></color>!"
+    },
+    {
+      "table": 2789,
+      "entry": 65,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "<$voicel(4,5)><$emotion(4,1)>Então você foi e aprendeu, tem<$cdef(27)><$sklfull(10)></color>? timo! Tudo bem, então<br> - Estou pronto para te ensinar <$cdef(27)>Cachoeira</color>, como prometido!",
+      "after": "<$voicel(4,5)><$emotion(4,1)>Então você foi e aprendeu, tem<$cdef(27)><$sklfull(10)></color>? timo! Tudo bem, então<br> - Estou pronto para te ensinar <$cdef(27)>Waterfall</color>, como prometido!"
+    },
+    {
+      "table": 2789,
+      "entry": 68,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "Aperte na<$cdef(27)> frente</color> de <$keyicon(6)>uma cachoeira enquanto<br> <$cdef(27)><$sklfull(10)>ing</color>!",
+      "after": "Você aprendeu <$cdef(27)>Waterfall</color>! Aperte <$keyicon(6)> diante de uma cachoeira<br> enquanto usa <$cdef(27)><$sklfull(10)></color>!"
+    },
+    {
+      "table": 3653,
+      "entry": 142,
+      "moves": [
+        "Headbutt"
+      ],
+      "before": "<$voicel(1,7)><$motionoff(1,804)><$facial(1,7)><$comeff(1,10)>Vamos ver se a sua cabeça é compatível com a <br>minha cabeça pulverizadora!",
+      "after": "<$voicel(1,7)><$motionoff(1,804)><$facial(1,7)><$comeff(1,10)>Vamos ver se a sua cabeça é compatível com a <br>meu Headbutt devastador!"
+    },
+    {
+      "table": 3653,
+      "entry": 365,
+      "moves": [
+        "Poison Jab"
+      ],
+      "before": "<$voicel(1,5)><$motionoff(1,824)><$comeff(1,14)>Você não precisa de tanta força em seus dedos<br>... fazê-los relaxar, como um <$cdef(27)>slowpoke</color>...<clear><br><$voicel(1,5)><$motionoff(1,824)><$comeff(1,14)>Também acho que você precisa trabalhar em seus movimentos de pulso..<br>. eles devem ser mais nítidos, como quando você usa o Veneno Jab...",
+      "after": "<$voicel(1,5)><$motionoff(1,824)><$comeff(1,14)>Você não precisa de tanta força em seus dedos<br>... fazê-los relaxar, como um <$cdef(27)>slowpoke</color>...<clear><br><$voicel(1,5)><$motionoff(1,824)><$comeff(1,14)>Também acho que você precisa trabalhar em seus movimentos de pulso..<br>. eles devem ser mais nítidos, como quando você usa o Poison Jab..."
+    },
+    {
+      "table": 4418,
+      "entry": 526,
+      "moves": [
+        "Glide"
+      ],
+      "before": "Deslize",
+      "after": "Glide"
+    },
+    {
+      "table": 4463,
+      "entry": 37,
+      "moves": [
+        "Headbutt"
+      ],
+      "before": "Cabeçada",
+      "after": "Headbutt"
+    },
+    {
+      "table": 4463,
+      "entry": 74,
+      "moves": [
+        "Glide"
+      ],
+      "before": "Deslize",
+      "after": "Glide"
+    },
+    {
+      "table": 4463,
+      "entry": 108,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "Cachoeira",
+      "after": "Waterfall"
+    },
+    {
+      "table": 4742,
+      "entry": 1,
+      "moves": [
+        "Leafage"
+      ],
+      "before": "Folhagem",
+      "after": "Leafage"
+    },
+    {
+      "table": 4742,
+      "entry": 2,
+      "moves": [
+        "Rototiller"
+      ],
+      "before": "Arado",
+      "after": "Rototiller"
+    },
+    {
+      "table": 4742,
+      "entry": 3,
+      "moves": [
+        "Water Gun"
+      ],
+      "before": "Pistola de água",
+      "after": "Water Gun"
+    },
+    {
+      "table": 4742,
+      "entry": 4,
+      "moves": [
+        "Rock Smash"
+      ],
+      "before": "Quebra-Rocha",
+      "after": "Rock Smash"
+    },
+    {
+      "table": 4742,
+      "entry": 5,
+      "moves": [
+        "Cut"
+      ],
+      "before": "Cortar",
+      "after": "Cut"
+    },
+    {
+      "table": 4742,
+      "entry": 6,
+      "moves": [
+        "Camouflage"
+      ],
+      "before": "Camuflagem",
+      "after": "Camouflage"
+    },
+    {
+      "table": 4742,
+      "entry": 7,
+      "moves": [
+        "Rototiller"
+      ],
+      "before": "Arado",
+      "after": "Rototiller"
+    },
+    {
+      "table": 4742,
+      "entry": 10,
+      "moves": [
+        "Surf"
+      ],
+      "before": "Surfe",
+      "after": "Surf"
+    },
+    {
+      "table": 4742,
+      "entry": 11,
+      "moves": [
+        "Glide"
+      ],
+      "before": "Deslize",
+      "after": "Glide"
+    },
+    {
+      "table": 4742,
+      "entry": 12,
+      "moves": [
+        "Rollout"
+      ],
+      "before": "Lançamento",
+      "after": "Rollout"
+    },
+    {
+      "table": 4742,
+      "entry": 13,
+      "moves": [
+        "Magnet Rise"
+      ],
+      "before": "mã de ascensão",
+      "after": "Magnet Rise"
+    },
+    {
+      "table": 4895,
+      "entry": 45,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Use a <$cdef(27)>Força</color> para mover a rocha enorme para o local designado!",
+      "after": "Use a <$cdef(27)>Strength</color> para mover a rocha enorme para o local designado!"
+    },
+    {
+      "table": 4913,
+      "entry": 45,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Mostre-me sua verdadeira <$cdef(27)>força</color>!",
+      "after": "Mostre-me sua verdadeira <$cdef(27)>Strength</color>!"
+    },
+    {
+      "table": 4913,
+      "entry": 91,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "Eu realmente <$cdef(27)><$hatname(152)></color>quero ter uma festa <br>de <$cdef(27)>dança da chuva</color> agora...",
+      "after": "Eu realmente <$cdef(27)><$hatname(152)></color>quero ter uma festa <br>de <$cdef(27)>Rain Dance</color> agora..."
+    },
+    {
+      "table": 4967,
+      "entry": 251,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Pressione e segure<$keyicon(6)> para usar <$cdef(27)>Força</color> para<br> empurrar e puxar objetos!",
+      "after": "Pressione e segure<$keyicon(6)> para usar <$cdef(27)>Strength</color> para<br> empurrar e puxar objetos!"
+    },
+    {
+      "table": 4967,
+      "entry": 252,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Ao usar <$cdef(27)>Força</color>, você pode girar objetos <br>inclinando para a esquerda<$keyicon(194)> ou para a direita.",
+      "after": "Ao usar <$cdef(27)>Strength</color>, você pode girar objetos <br>inclinando para a esquerda<$keyicon(194)> ou para a direita."
+    },
+    {
+      "table": 4976,
+      "entry": 21,
+      "moves": [
+        "Stockpile",
+        "Spit Out"
+      ],
+      "before": "Acumular / cuspir",
+      "after": "Stockpile / Spit Out"
+    },
+    {
+      "table": 4976,
+      "entry": 96,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "<fcap><$spwfull(8)> e o local da dança da chuva",
+      "after": "<fcap><$spwfull(8)> e o local da Rain Dance"
+    },
+    {
+      "table": 4976,
+      "entry": 251,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Força",
+      "after": "Strength"
+    },
+    {
+      "table": 4976,
+      "entry": 252,
+      "moves": [
+        "Strength"
+      ],
+      "before": "Usando Força para Girar Objetos",
+      "after": "Usando Strength para Girar Objetos"
+    },
+    {
+      "table": 4976,
+      "entry": 364,
+      "moves": [
+        "Waterfall"
+      ],
+      "before": "<$icon(11020)>Cachoeira",
+      "after": "<$icon(11020)>Waterfall"
+    },
+    {
+      "table": 4994,
+      "entry": 88,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "Onde dançar?",
+      "after": "Onde usar Rain Dance?"
+    },
+    {
+      "table": 5003,
+      "entry": 88,
+      "moves": [
+        "Rain Dance"
+      ],
+      "before": "Para a festa da Dança da Chuva, você vai<$cdef(27)> precisar de <br>algo que te faça pensar </color>em chuva<$cdef(27)> e um prato com comida</color>!",
+      "after": "Para a festa da Rain Dance, você vai<$cdef(27)> precisar de <br>algo que te faça pensar </color>em chuva<$cdef(27)> e um prato com comida</color>!"
+    }
+  ]
+}

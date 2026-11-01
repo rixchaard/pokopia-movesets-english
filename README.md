@@ -1,55 +1,48 @@
-# Pokémon Pokopia — Tradução PT-BR
+# Pokémon Pokopia — PT-BR com Movesets em Inglês
 
-**Versão 0.0.5 — tradução parcial**
+Variante da tradução comunitária de [LucianoNeo/pokemon-pokopia-pt-br](https://github.com/LucianoNeo/pokemon-pokopia-pt-br), mantendo os **nomes dos movimentos em inglês** e as descrições e demais textos em português do Brasil.
 
-Patch comunitário para Pokémon Pokopia 1.0.4, aplicado ao RomFS do update 327680. O jogo deve permanecer configurado em inglês para carregar a tabela C0 modificada.
+## Download
 
-> ⭐ **Antes de baixar, dê uma estrela no repositório:** [LucianoNeo/pokemon-pokopia-pt-br](https://github.com/LucianoNeo/pokemon-pokopia-pt-br). Isso ajuda o projeto a chegar a mais jogadores.
+**[Baixar o patch pronto — Movesets em Inglês](https://github.com/rixchaard/pokemon-pokopia-pt-br/releases/latest)**
 
-## Sobre a tradução
+Baixe o arquivo `pokopia-ptbr-ataques-em-ingles.zip` anexado à release. O botão **Code → Download ZIP** baixa o código do projeto e não substitui o pacote pronto da release.
 
-A tradução é feita com auxílio de inteligência artificial e revisada manualmente. O projeto ainda está incompleto; alguns textos permanecem em inglês e novas correções virão em versões futuras.
+## O que mudou
 
-## O que mudou na versão 0.0.5
+- 63 entradas ajustadas em 16 tabelas de texto, incluindo a lista de movimentos e referências em botões, tutoriais, objetivos e diálogos.
+- Nomes como **Leafage, Water Gun, Rock Smash, Cut, Surf, Headbutt, Strength, Waterfall e Rain Dance** ficam em inglês.
+- Descrições permanecem em português. Palavras comuns continuam traduzidas: uma cachoeira do cenário é uma cachoeira; o movimento é **Waterfall**.
+- Somente dois arquivos do jogo são modificados: `romfs/LD_C0_R.BIN` e `romfs/LI_C0_R.IDX`.
 
-- Adicionadas quatro capturas de tela para mostrar exemplos da tradução em uso.
-- O ZIP traz os mesmos arquivos de texto da versão 0.0.4; esta atualização não altera o conteúdo traduzido do jogo. Ela mantém as revisões semânticas e contextuais anteriores.
-- A tradução continua parcial; `PRESS A BUTTON` permanece em inglês.
-
-## Exemplos no jogo
-
-Capturas de tela da tradução em uso:
-
-**Pedidos do Ermo Ressequido**
-
-![Quadro de pedidos do Ermo Ressequido em português](docs/screenshots/pedidos-ermo-ressequido.png)
-
-**Diálogo com Hitmonchan**
-
-![Conversa de Hitmonchan com Ditto em português](docs/screenshots/dialogo-hitmonchan.png)
-
-**Tutorial: alcançando lugares altos**
-
-![Tutorial sobre alcançar lugares altos e controles traduzidos](docs/screenshots/tutorial-lugares-altos.png)
-
-**Menu de pedidos**
-
-![Menu de pedidos e mapa do Ermo Ressequido em português](docs/screenshots/menu-pedidos.png)
-
-## Arquivos do ZIP
-
-- `romfs/LD_C0_R.BIN` — tabela de textos traduzidos.
-- `romfs/LI_C0_R.IDX` — índice correspondente; deve ficar junto do arquivo de textos.
+Base: tradução comunitária **0.0.5**, commit `7543125ee0649383541c127c01ce251b8aad046c`, para **Pokémon Pokopia 1.0.4 / update 327680**. A tradução de origem continua parcial. Esta variante não é uma revisão geral dos demais textos.
 
 ## Instalação
 
-1. Feche o jogo. O emulador pode continuar aberto se o jogo não estiver rodando.
-2. Faça backup dos arquivos correspondentes no update 327680.
-3. Extraia o ZIP no mod RomFS do update 327680, preservando a árvore `romfs`. Na instalação manual, substitua os arquivos correspondentes dentro da pasta `romfs` do update.
-4. Mantenha `LD_C0_R.BIN` e `LI_C0_R.IDX` juntos e deixe o idioma do jogo em inglês.
+1. Feche o jogo e faça backup do par de arquivos atualmente instalado.
+2. Extraia a pasta `romfs` do ZIP da release na sobreposição de recursos compatível com seu ambiente e esse update, ou substitua o par correspondente no RomFS extraído.
+3. Mantenha os dois arquivos juntos e selecione **English** no jogo.
 
-Para voltar aos arquivos originais, restaure os backups feitos antes da instalação.
+Para desfazer, feche o jogo e restaure os dois arquivos do backup.
 
-## Aviso
+## Verificação
 
-Projeto comunitário não oficial. Pokémon e os arquivos originais do jogo pertencem aos respectivos detentores. O pacote contém apenas arquivos do patch; mantenha uma cópia legal do jogo e dos arquivos originais.
+Os arquivos produzidos foram reabertos e descompactados. Foram conferidos os textos alterados, os comandos, as entradas preservadas e os índices. **Esta variante ainda precisa de teste no jogo.**
+
+O ZIP inclui `alteracoes.json`, com as entradas antes/depois e os hashes. As capturas herdadas do projeto original mostram a tradução de origem, e não comprovam esta variante.
+
+## Reproduzir os ajustes
+
+Os arquivos em `romfs` neste histórico são a **base comunitária**, mantida para reprodução. O BIN é armazenado com Git LFS. Para obter diretamente a variante pronta, use a release.
+
+Com Node.js instalado e o par original dessa versão obtido por Git LFS, execute na raiz do projeto:
+
+```sh
+node apply-moves-en.cjs romfs build/romfs
+```
+
+O script confere os hashes da base, preserva os originais e grava o par modificado em `build/romfs`. As 63 alterações estão em `moves-en.json`. Não são necessárias dependências npm.
+
+## Créditos
+
+A tradução PT-BR de origem é do projeto **LucianoNeo/pokemon-pokopia-pt-br**. Este fork acrescenta os ajustes de nomenclatura em inglês; não reivindica autoria da tradução original. Pokémon e os arquivos do jogo pertencem aos respectivos titulares. Projeto comunitário não oficial.
